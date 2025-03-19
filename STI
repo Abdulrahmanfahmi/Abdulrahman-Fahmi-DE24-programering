@@ -1,0 +1,251 @@
+# uppgift 1
+# tal = int(input("mata ett tal")
+# if tal < 10:
+#    print("talet är större än 10")
+#elif tal<10:
+#    print("talet är mindre än 10")
+# else:
+#    print("talet är 10")
+
+####################################################################
+
+# uppgift 2
+# quant_milk = int(input("Hur många paket mjölk har du?"))
+#if quant_milk < 10:
+#    print("beställ 30 paket!")
+#elif quant_milk >= 10 and quant_milk <=20:
+#    print("beställ 20 paket!")
+#else:
+#    print("Du behöver inte beställa någon mjölk!")
+
+#######################################################################
+
+# uppgift 3
+#nummer_1 = int(input("nummer 1:"))
+#largest = None 
+#if nummer_1>nummer_2:
+#    largest = nummer_1
+#elif nummer_1< nummer_2:
+#    largest = nummer_2
+#print(f"det största talet är (largest)")
+
+#########################################################################
+
+#uppgift 4 
+
+#nummer_1 = int(input("nummer 1:"))
+# nummer_2 = int(input("nummer 2:"))
+#nummer_3= float(input("nummer 3:"))
+# largest = None
+
+#if nummer_1>nummer_2:
+#    largest = nummer_1
+#elif nummer_1<nummer_2:
+#    largest = nummer_2
+#elif nummer_2<nummer_3:
+#print(f"största talet är(largest)")
+
+###############################################################################
+
+# Uppgift 5 
+
+#kategori = input("ange kategori(vuxen,pensionär,studnet):")
+#if kategori == "pesnsionär or kategori == "Studnet":
+#pris = 20
+#print(f"priset för resan är (pris)kr")
+#elif kategori == vuxen:
+#pris = 30
+
+#print(f"priset för resan är (pris) kr")
+#else:
+#    print("Du har angett en felaktig kategori")
+
+###########################################################################
+
+# uppgift 6
+# birth_year = int(input("what is your birth year?"))
+#if birth_year >= 1980: and birth_year <1990:
+#    print(f"you are born in the 1980s")
+#elif birth_year >=1990 and birth_year <2000:
+#    print(f"you are born in the 1990s")
+#elif birth_year <1980 or birth_year >=2000:
+#    priint(f"you are not born in the 1990s or 1980s")
+
+##############################################################################
+
+# uppgift 7
+
+#scan_country = input("which country to you live in(sweden,norway or denmark or other)?")
+#if scan_country.lower() =="sweden or scan_country.lower()==norway or scan_country()==denmark":
+#    print("you live in scandinavia")
+#else:
+#    print("you live in scandinavia")
+#else:
+#    print("you dont live in scandinavia")
+
+###########################################################################
+
+# uppgift 8
+
+#money_stu = int(input("how much money do you have:"))
+#rabbat = input("do you have rabbat? Yes/No")
+#if(money_stu>=15 and money_stu<=25)and rabbat==false:
+#    print("you can buy a small burger")
+#elif(money_stu>=15 and money_stu<=25)and rabbat==True:
+#    print("du kan köpa en liten hamburgare och en pommes fries")
+#elif(money_stu>25 and money_stu<=50)and rabbat==False:
+#    print("du kan köpa en stor hamburgare och pommes fries")
+#elif(money_stu>50 and money_stu<=60)and rabbat==True:
+#    print("du kan köpa meal med stor dryck!")
+
+# #################################################################################
+
+# uppgift 9
+
+# temp_svedala = float(input("ange temperaturen i svedala"))
+# temp_jukkasjärvi = float(input("ange temperaturen i jukkansjärvi"))
+# temp_visby= float(input("ange temperaturen i visby"))
+
+# kallaste_platsen = min(temp_svedala,temp_jukkasjärvi,temp_visby)
+# varmaste_platsen = max(temp_svedala,temp_jukkasjärvi,temp_visby)
+
+# if kallaste_platsen == temp_svedala:
+#     kallaste_platsen = "svedala"
+
+# elif varmaste_platsen == temp_jukkasjärvi:
+#     varmaste_platsen = "jukkasjärvi"
+# else:
+#     varmaste_platsen = "visby"
+
+# print(f"det är kallast i (kallaste_platsen)")
+# print(f"det är varmast i (varmaste_platsen)")
+# print(f"medeltemperarturen är (average_temp)")
+
+# ###########################################################################################
+
+# uppgift 10
+
+# password = input("mata in ett lösenord (minst 8 tecken):")
+
+# if len(password) >= 8:
+#     print("lösenordet är skapat")
+# else
+#     print("lösenordet uppfylller inte krav")
+
+# #########################################################################################
+
+# uppgift 15
+
+
+
+
+
+
+
+################################################################################
+
+# if,elif,else träning
+
+
+# uname = "abdulrahman"
+# cname = "sweden"
+# cname = "basket ball course"
+# cprice = "200"
+
+# if ucountry == "sweden":
+#     print(f"Hello [unmae] because you are from [ucountry]")
+#     print(f"the course/"[cname]/" price is:€[cprice - 200]")
+
+# else :
+
+#     print(f"Hello [unmae] because you are from [ucountry]")
+#     print(f"the course/"[cname]/" price is:€[cprice - 8f0]")
+
+#######################################################################
+
+#  uppgift 1.
+
+#  for i in range(10):
+#     print(i)
+
+#     number = 0
+
+# while number <= 10:
+#     print(number)
+#     number += number + 1
+# ###################################
+# # uppgift 2
+
+# tal1 = int(input("mata in det första talet:"))
+# tal2 = int(input("mata in det andra talet"))
+
+# for i in range(tal1 + 1, tal2):
+#     print(i)
+
+
+# tal1 = int(input("mata in det första talet"))
+# tal2 = int(input("mata in det andra talet"))
+
+# i = tal1 + 1
+# while i <tal2:
+#     print(i)
+#     i += 1
+
+# #######################################################
+# # uppgfit 3
+
+# answer = True 
+
+# while answer:
+#     tal1 = float(input("mata in det första talet"))
+#     tal2 = float(input("mata in det andra talet"))
+#     print(tal1+tal2)
+#     question = input("vill du fortsätta? (J/N) ").upper()
+#     if question == "N":
+#         print("programmet avslutas.")
+#         break
+#     elif svar != "J":
+#         print("ogiltigt svar.programmet avslutas")
+#         break
+
+# ##############################################################
+# # uppgift 4
+# summa = 0
+# for i in range(4):
+#     number = int(input("mata in en siffra:"))
+#     summa = summa + number
+#     print(f"totala summan är[summa]: ")
+
+# #################################################################
+# # uppgift 5
+
+# tal = int(input("mata int ett tal"))
+# for i in range(1, tal):
+#     print(i)
+
+# # omvänt
+# tal = int(input("mata int ett tal"))
+# for i in range(num-1, 0, -1):
+#     print(i)
+
+# tal = int(input("mata int ett tal"))
+# for i in range(1, num):
+#     print(num - i)
+
+###################################################################
+# uppgift 6
+num = int(input("mata in ett tal"))
+for i in range(1, 11):
+    print(f"[i] * [num] = [i*num]")
+
+#####################################################################
+
+# uppgift 7 
+
+
+######################################################
+
+# uppgift 8 
+
+
+#######################################################
